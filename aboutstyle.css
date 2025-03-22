@@ -1,0 +1,124 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 60px;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #f8b400;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about-us .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.about-us img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    margin-top: 50px;
+}
+
+/* RESPONSIVENESS  */
+/* Untuk layar kecil (HP) */
+@media (max-width: 768px) {
+    .contact-us {
+        padding: 40px 20px;
+    }
+
+    .contact-us .section-title {
+        font-size: 1.75rem;
+    }
+
+    .contact-us p {
+        font-size: 0.9rem;
+    }
+
+    form .form-control {
+        font-size: 0.875rem;
+        padding: 0.5rem;
+    }
+
+    form .btn-primary {
+        font-size: 0.875rem;
+        padding: 0.5rem;
+    }
+}
+
+/* Untuk layar sangat kecil (HP ukuran kecil) */
+@media (max-width: 480px) {
+    .contact-us {
+        padding: 30px 15px;
+    }
+
+    .contact-us .section-title {
+        font-size: 1.5rem;
+    }
+
+    .contact-us p {
+        font-size: 0.875rem;
+    }
+
+    form .form-control {
+        font-size: 0.875rem;
+        padding: 0.5rem;
+    }
+
+    form .btn-primary {
+        font-size: 0.875rem;
+        padding: 0.5rem;
+    }
+}
+
+/* Untuk layar besar (desktop) */
+@media (min-width: 992px) {
+    .contact-us .section-title {
+        font-size: 2.5rem;
+    }
+
+    .contact-us p {
+        font-size: 1.1rem;
+    }
+
+    form .form-control {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    form .btn-primary {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}

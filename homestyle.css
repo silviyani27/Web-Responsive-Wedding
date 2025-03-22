@@ -1,0 +1,263 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 60px;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #f8b400;
+}
+
+/* Carousel */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 500px; /* Batasi tinggi gambar */
+    object-fit: contain; /* Menampilkan seluruh gambar tanpa crop */
+    background-color: black; /* Tambahkan latar belakang jika ada area kosong */
+}
+
+/* Carousel Caption */
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+   /* background: rgba(0, 0, 0, 0.5);*/
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.carousel-text {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* About Us */
+#about {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+/* Our Services & Packages */
+#services, #packages {
+    padding: 50px 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Contact Us */
+#contact {
+    background: linear-gradient(to right, #000000, #333333);
+    color: white;
+    padding: 50px 0;
+}
+
+#contact a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Button */
+.btn.btn-primary {
+    background-color: #f8b400 !important;
+    border-color: #f8b400 !important;
+}
+
+.btn.btn-primary:hover {
+    background-color: #d99a00 !important; /* Warna lebih gelap saat hover */
+    border-color: #d99a00 !important;
+}
+
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Untuk layar kecil (HP) */
+@media (max-width: 768px) {
+    .contact-us {
+        padding: 40px 20px;
+    }
+
+    .contact-us .section-title {
+        font-size: 1.75rem;
+    }
+
+    .contact-us p {
+        font-size: 0.9rem;
+    }
+
+    form .form-control {
+        font-size: 0.875rem;
+        padding: 0.5rem;
+    }
+
+    form .btn-primary {
+        font-size: 0.875rem;
+        padding: 0.5rem;
+    }
+}
+
+/* Untuk layar sangat kecil (HP ukuran kecil) */
+@media (max-width: 480px) {
+    .contact-us {
+        padding: 30px 15px;
+    }
+
+    .contact-us .section-title {
+        font-size: 1.5rem;
+    }
+
+    .contact-us p {
+        font-size: 0.875rem;
+    }
+
+    form .form-control {
+        font-size: 0.875rem;
+        padding: 0.5rem;
+    }
+
+    form .btn-primary {
+        font-size: 0.875rem;
+        padding: 0.5rem;
+    }
+}
+
+/* Untuk layar besar (desktop) */
+@media (min-width: 992px) {
+    .contact-us .section-title {
+        font-size: 2.5rem;
+    }
+
+    .contact-us p {
+        font-size: 1.1rem;
+    }
+
+    form .form-control {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    form .btn-primary {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+
+
+                    
+           
+
+
+/** {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;  
+}
+
+.main{
+    width: 100%;
+    height: 130vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("1w.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+width: 100%;
+}
+
+.content{
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.content h1{
+    font-size: 50px;
+    margin-top: 120px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}*/

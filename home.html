@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilanti's Wedding Organizer</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="homestyle.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Lilanti's Wedding Organizer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" id="servicesDropdown" role="button" data-bs-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="indoor.html">Indoor Venue</a></li>
+                            <li><a class="dropdown-item" href="outdoor.html">Outdoor Venue</a></li>
+                            <li><a class="dropdown-item" href="makeup.html">Make Up</a></li>
+                            <li><a class="dropdown-item" href="weddingdress.html">Wedding Dress</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="packages.html" id="packagesDropdown" role="button" data-bs-toggle="dropdown">Packages</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="intimate.html">Intimate Package</a></li>
+                            <li><a class="dropdown-item" href="deatilstandard.html">Standard Package</a></li>
+                            <li><a class="dropdown-item" href="premium.html">Premium Package</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <!-- Carousel -->
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="image/venue.jpeg" class="d-block w-100" alt="Venue">
+            <div class="carousel-caption d-flex align-items-center justify-content-center">
+                <h2 class="carousel-text">Venue</h2>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="image/dress.jpeg" class="d-block w-100" alt="Wedding Dress">
+            <div class="carousel-caption d-flex align-items-center justify-content-center">
+                <h2 class="carousel-text">Wedding Dress</h2>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="image/makeup.jpeg" class="d-block w-100" alt="Wedding Makeup">
+            <div class="carousel-caption d-flex align-items-center justify-content-center">
+                <h2 class="carousel-text">Wedding Makeup</h2>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<!-- About Us Section -->
+<section id="about" class="py-5 bg-light text-center">
+    <div class="container">
+        <h2 class="mb-4">About Us</h2>
+        <p>
+            Lilanti's Wedding Organizer hadir untuk mewujudkan pernikahan impian Anda dengan layanan terbaik.
+            Kami siap membantu mulai dari venue, makeup, hingga paket pernikahan yang sesuai dengan kebutuhan Anda.
+        </p>
+    </div>
+</section>
+
+<!-- Our Services Section -->
+<section id="services" class="py-5 text-center">
+    <div class="container">
+        <h2 class="mb-4">Our Services</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="image/venueIn.jpeg" class="card-img-top" alt="Indoor Venue">
+                    <div class="card-body">
+                        <h5 class="card-title">Indoor Venue</h5>
+                        <a href="indoor.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="image/venue.jpeg" class="card-img-top" alt="Outdoor Venue">
+                    <div class="card-body">
+                        <h5 class="card-title">Outdoor Venue</h5>
+                        <a href="outdoor.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="image/makeup.jpeg" class="card-img-top" alt="Makeup">
+                    <div class="card-body">
+                        <h5 class="card-title">Makeup</h5>
+                        <a href="makeup.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="image/dress.jpeg" class="card-img-top" alt="Wedding Dress">
+                    <div class="card-body">
+                        <h5 class="card-title">Wedding Dress</h5>
+                        <a href="weddingdress.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Packages Section -->
+<section id="packages" class="py-5 bg-light text-center">
+    <div class="container">
+        <h2 class="mb-4">Our Packages</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image/venue.jpeg" class="card-img-top" alt="Intimate Package">
+                    <div class="card-body">
+                        <h5 class="card-title">Intimate Package</h5>
+                        <a href="intimate.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image/dress.jpeg" class="card-img-top" alt="Standard Package">
+                    <div class="card-body">
+                        <h5 class="card-title">Standard Package</h5>
+                        <a href="deatilstandard.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image/makeup.jpeg" class="card-img-top" alt="Premium Package">
+                    <div class="card-body">
+                        <h5 class="card-title">Premium Package</h5>
+                        <a href="premium.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Us Section -->
+<section id="contact" class="py-5 text-center">
+    <div class="container">
+        <h2 class="mb-4">Contact Us</h2>
+        <p>Silakan hubungi kami untuk booking atau konsultasi lebih lanjut mengenai pernikahan impian Anda.</p>
+        <p>Email: <a href="#">lilantiwedding@gmail.com</a></p>
+        <p>Phone: +62 858-9098-7654</p>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3">
+        &copy; 2024 Lilanti's Wedding Organizer. All rights reserved.
+    </footer>
+
+    <!-- Bootstrap & jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
